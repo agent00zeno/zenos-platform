@@ -14,7 +14,7 @@ export default function Hero() {
           fontWeight: 600,
           letterSpacing: '0.12em',
           textTransform: 'uppercase',
-          color: '#B8976A',
+          color: '#e06010',
           marginBottom: '1.5rem',
         }}>
           Architect · Engineer · Builder
@@ -24,7 +24,7 @@ export default function Hero() {
           fontFamily: 'Cormorant Garamond, Georgia, serif',
           fontSize: 'clamp(2.8rem, 5vw, 5rem)',
           fontWeight: 600,
-          color: '#1E1E1E',
+          color: '#e8e0d0',
           lineHeight: 1.1,
           marginBottom: '1.5rem',
         }}>
@@ -34,13 +34,13 @@ export default function Hero() {
         <div style={{
           width: '48px',
           height: '2px',
-          background: '#B8976A',
+          background: '#e06010',
           marginBottom: '1.5rem',
         }} />
 
         <p style={{
           fontSize: '1.2rem',
-          color: '#3A3A3A',
+          color: '#c8c0b0',
           lineHeight: 1.7,
           marginBottom: '2rem',
         }}>
@@ -50,7 +50,7 @@ export default function Hero() {
 
         <p style={{
           fontSize: '1rem',
-          color: '#666',
+          color: '#a8a098',
           lineHeight: 1.7,
           marginBottom: '3rem',
         }}>
