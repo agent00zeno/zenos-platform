@@ -8,15 +8,15 @@
 [hidden] { display: none !important; }
 
 :root {
-  /* Albany Zeno brand palette — Executive Sport skin */
-  --color-surface:      #4a5040;   /* olive carbon */
-  --color-deep-green:   #c05010;   /* orange leather */
-  --color-coral:        #e06010;   /* orange accent */
-  --color-charcoal:     #e8e0d0;   /* cream text on dark */
-  --color-brass:        #e8c080;   /* gold hardware */
-  --color-steel:        #888a88;   /* aged chrome */
-  --color-enamel:       #3a3c38;   /* dark carbon well */
-  --color-border:       #c05010;   /* orange leather border */
+  /* Albany Zeno brand palette — Quality Interior skin */
+  --color-surface:      #e8e0d0;   /* cream leather */
+  --color-deep-green:   #173f38;   /* deep forest green */
+  --color-coral:        #c89858;   /* gold accent */
+  --color-charcoal:     #1E1E1E;   /* near-black text */
+  --color-brass:        #c89858;   /* gold hardware */
+  --color-steel:        #c8c7c0;   /* brushed steel */
+  --color-enamel:       #f5f0e8;   /* warm cream */
+  --color-border:       #c4b89a;   /* leather border */
 
   /* Typography */
   --font-heading: 'Cormorant Garamond', Georgia, serif;
@@ -43,36 +43,7 @@ html, body {
   font-size: 16px;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
-  background-image:
-    repeating-linear-gradient(45deg,
-      rgba(255,255,255,.04) 0 1px, transparent 1px 4px,
-      rgba(255,255,255,.03) 4px 5px, transparent 5px 8px
-    ),
-    repeating-linear-gradient(-45deg,
-      rgba(0,0,0,.28) 0 1px, transparent 1px 4px,
-      rgba(0,0,0,.22) 4px 5px, transparent 5px 8px
-    );
 }
-
-/* Orange leather side rails */
-body::before, body::after {
-  content: "";
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: 14px;
-  z-index: 100;
-  pointer-events: none;
-  background:
-    repeating-linear-gradient(180deg,
-      rgba(255,255,255,.12) 0 2px, transparent 2px 8px,
-      rgba(0,0,0,.18) 8px 10px, transparent 10px 18px
-    ),
-    linear-gradient(180deg, #c85010 0%, #a04008 50%, #b84e10 100%);
-}
-
-body::before { left: 0; }
-body::after  { right: 0; }
 
 h1, h2, h3, h4 {
   font-family: var(--font-heading);
