@@ -8,15 +8,15 @@
 [hidden] { display: none !important; }
 
 :root {
-  /* Albany Zeno brand palette */
-  --color-surface:      #F5F2ED;   /* off-white / warm ivory */
-  --color-deep-green:   #2D4A3E;   /* deep forest green */
-  --color-coral:        #C4614A;   /* coral accent */
+  /* Albany Zeno brand palette — Quality Interior skin */
+  --color-surface:      #d8c9b0;   /* stitched leather */
+  --color-deep-green:   #173f38;   /* green enamel */
+  --color-coral:        #c89858;   /* gold accent */
   --color-charcoal:     #1E1E1E;   /* near-black text */
-  --color-brass:        #B8976A;   /* brass accent */
-  --color-steel:        #8A9BAE;   /* brushed steel — from Rover */
-  --color-enamel:       #FFFFFF;   /* clean white — from Rover */
-  --color-border:       #D8D2C8;   /* subtle warm border */
+  --color-brass:        #c89858;   /* gold screws */
+  --color-steel:        #c8c7c0;   /* chrome */
+  --color-enamel:       #f5f0e8;   /* warm cream */
+  --color-border:       #c4b89a;   /* leather border */
 
   /* Typography */
   --font-heading: 'Cormorant Garamond', Georgia, serif;
